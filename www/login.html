@@ -1,0 +1,18 @@
+<div class="wrapper" ng-controller="loginController">
+    <h2 class="form-signin-heading">Please login{{message}}</h2>
+    <input type="text" class="form-control" name="username" ng-model="user" placeholder="Email Address" required="" autofocus="" />
+    <input type="password" class="form-control" name="password" ng-model="pass" placeholder="Password" required=""/>      
+    <label class="checkbox">
+      <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+    </label>
+    <button class="btn btn-lg btn-primary btn-block" ng-click="login()" type="submit">Login</button>   
+</div>
+
+
+
+
+
+
+
+
+
